@@ -1,0 +1,24 @@
+{
+  "name": "nova-theme",
+  "displayName": "Nova Theme",
+  "description": "A dark color theme by Kris Schultz",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nova",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Nova-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package"
+  }
+}
