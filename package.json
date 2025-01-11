@@ -4,6 +4,8 @@
   "description": "A dark color theme by Kris Schultz",
   "version": "1.0.0",
   "author": "Kris Schultz",
+  "publisher": "KrisSchultz",
+  "icon": "./images/icon.png",
   "license": "MIT",
   "repository": {
     "type": "git",
