@@ -3,6 +3,12 @@
   "displayName": "Nova Theme",
   "description": "A dark color theme by Kris Schultz",
   "version": "1.0.0",
+  "author": "Kris Schultz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Krxtopher/vscode-theme-nova"
+  },
   "engines": {
     "vscode": "^1.96.0"
   },
@@ -19,6 +25,7 @@
     ]
   },
   "scripts": {
-    "package": "vsce package"
+    "package": "vsce package",
+    "publish": "vsce publish"
   }
 }
